@@ -1,0 +1,2201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;517&display=swap');
+
+body {
+    /* Desktop */
+    font-family: 'Montserrat', sans-serif;
+
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 1440px;
+    height: 2386px;
+
+    background: #F1F1F1;
+}
+
+/* ------------ Header ------------*/
+
+
+.header {
+    /* Header */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 80px;
+    gap: 748px;
+
+    width: 1440px;
+    height: 62px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.magnifier-logo {
+    /* Logo */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 114.68px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#magnifier {
+    /* magnifier 1 */
+
+    width: 18.68px;
+    height: 22px;
+
+    background: url(./img/magnifier_1.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Logo {
+    /* Logo */
+
+    width: 86px;
+    height: 22px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.menu {
+    /* Menu */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 410px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn1 {
+    border: none;
+
+
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 64px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* on hover */
+.btn1:hover {
+    background-color: #712FFF;
+}
+
+.btn1 label:hover {
+    color: white;
+}
+
+.txt-home {
+    /* label-text */
+
+
+    width: 40px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn2 {
+    border: none;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 85px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* on hover */
+.btn2:hover {
+    background-color: #712FFF;
+}
+
+.btn2 label:hover {
+    color: white;
+}
+
+.txt-about-us {
+    /* label-text */
+
+
+    width: 61px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn3 {
+    border: none;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 111px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* on hover */
+.btn3:hover {
+    background-color: #712FFF;
+}
+
+.btn3 label:hover {
+    color: white;
+}
+
+.txt-how-it-works {
+    /* label-text */
+
+
+    width: 87px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn4 {
+    border: none;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 102px;
+    height: 38px;
+
+    background: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+/* on hover */
+.btn4:hover {
+    background-color: #712FFF;
+}
+
+.btn4 label:hover {
+    color: white;
+}
+
+.txt-get-started {
+    /* label-text */
+
+
+    width: 78px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* ------------ description ------------*/
+
+.description {
+    /* Description */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 165px;
+
+    width: 1440px;
+    height: 620px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info-description {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 495px;
+    height: 366px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-info-description {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 495px;
+    height: 268px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#title-text-info-description {
+    /* Title */
+
+
+    width: 495px;
+    height: 192px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    /* or 119% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#bdy-text-info-description {
+    /* Description */
+
+
+    width: 495px;
+    height: 44px;
+
+    /* Body M 16 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+#btn-info-description {
+    border: none;
+    /* Button Medium 50 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Filled buttons are used for final or unblocking actions in a flow
+
+    High emphasis – For the primary, most important, or most common action on a screen
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 144px;
+    height: 50px;
+
+    background: #712FFF;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#labelbtn-info-description {
+    /* label-text */
+
+
+    width: 96px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#visual-content-description {
+    /* VisualContent */
+
+
+    width: 619px;
+    height: 420px;
+
+    background: url(./img/VisualContent.png);
+    border-radius: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* #fire-pic {
+
+
+    position: absolute;
+    width: 148px;
+    height: 172px;
+    left: 585px;
+    top: 217px;
+
+    background: url(./img/fire.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+} */
+
+/* #dollar-pic {
+
+    position: absolute;
+    width: 139px;
+    height: 181px;
+    left: 213px;
+    top: 0px;
+
+    background: url(./img/dollar.png);
+} */
+
+/* .image4 {
+    position: absolute;
+
+    width: 687px;
+    height: 458px;
+    left: -34px;
+    top: -12px;
+
+    background: url(./img/image_4.png);
+ 
+} */
+
+
+/* ------------------------ How it works ------------------------ */
+
+.section-how-it-works {
+    /* How it works */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 86px;
+
+    width: 1440px;
+    height: 562px;
+
+    background: #E1DEE7;
+    border-radius: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info-section-how-it-works {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    width: 351px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.texting-info-section-how-it-works {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 12px; */
+
+    width: 351px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descr-info-section-how-it-works {
+    /* Description */
+
+
+    width: 169px;
+    height: 16px;
+
+    /* Caption 12 pt/Regular */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-info-section-how-it-works {
+    white-space: nowrap;
+
+    /* Title */
+
+    width: 351px;
+    height: 56px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    /* identical to box height, or 104% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame18 {
+    /* Frame 18 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1280px;
+    height: 186px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.step1 {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 400px;
+    height: 186px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.step2 {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 400px;
+    height: 186px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.step3 {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 400px;
+    height: 186px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.pic-block-step1 {
+    /* Frame 17 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pic-block-step2 {
+    /* Frame 17 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pic-block-step3 {
+    /* Frame 18 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#picposition-inside-step1 {
+    /* Icon */
+
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#picposition-inside-step1+img {
+    /* 1 */
+
+
+    position: absolute;
+    width: 35.13px;
+    height: 64px;
+    left: 14px;
+    top: 0px;
+
+    background: url(1.png);
+}
+
+#picposition-inside-step2 {
+    /* Icon */
+
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#picposition-inside-step2+img {
+    /* 2 */
+
+    position: absolute;
+    width: 48.3px;
+    height: 64px;
+    left: 8px;
+    top: 0px;
+
+    background: url(2.png);
+}
+
+#picposition-inside-step3 {
+    /* Icon */
+
+
+    width: 64px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#picposition-inside-step3+img {
+    /* 3 */
+
+    position: absolute;
+    width: 48.57px;
+    height: 64px;
+    left: 8px;
+    top: 0px;
+
+    background: url(3.png);
+}
+
+.textposition-inside-each-step {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 400px;
+    height: 74px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title-inside-each-step {
+    /* Title */
+
+    width: 400px;
+    height: 28px;
+
+    /* Headline M 24 pt/Bold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descr-inside-each-step {
+    /* Description */
+
+    width: 400px;
+    height: 22px;
+
+    /* Body M 16 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* ------------------------------------------------ lets get started ------------------------------------------------ */
+
+.input-field {
+    /* InputField */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 128px;
+
+    width: 1440px;
+    height: 422px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info-input-field {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 757px;
+    height: 222px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-input-field {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 757px;
+    height: 222px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-input-field {
+    /* Title */
+
+
+    width: 495px;
+    height: 64px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    /* identical to box height, or 119% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.desription-input-field {
+    /* Description */
+
+
+    width: 495px;
+    height: 44px;
+
+    /* Body M 16 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame1-input-field {
+    /* Frame 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 757px;
+    height: 50px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#textfield {
+    display: flex;
+    justify-content: flex-start;
+    /* TextField */
+
+
+    box-sizing: border-box;
+
+    width: 619px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.job-keywords-for-search {
+    border: none;
+    align-self: center;
+    border-radius: 12px;
+    order: 1;
+    /* Description */
+
+
+
+    /* position: absolute; */
+    position: relative;
+    /* width: 495px; */
+    width: 565px;
+    /* height: 22px; */
+    height: 45px;
+    /* left: 49px; */
+    left: 22px;
+    /* top: 14px; */
+    top: 0;
+    
+
+    /* Body M 16 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+#textfield>img {
+    order: 0;
+    /* Search */
+
+    /* position: absolute; */
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 13px;
+    top: 13px;
+
+    background: url(.png);
+
+}
+
+.btn-frame1-input-field {
+    border: none;
+    color: white;
+    /* Button Medium 50 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+    
+    Filled buttons are used for final or unblocking actions in a flow
+    
+    High emphasis – For the primary, most important, or most common action on a screen
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 106px;
+    height: 50px;
+
+    background: #712FFF;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.labelbtn-frame1-input-field {
+    /* label-text */
+
+
+    width: 58px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* ------------------------------------------------ CV submission ------------------------------------------------ */
+
+.section-cv-submission {
+    /* CV Submission */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 80px;
+    gap: 128px;
+
+    width: 1440px;
+    height: 548px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+#visual-content-cv-submission {
+    /* VisualContent */
+
+
+    width: 619px;
+    height: 420px;
+
+    /* background: #FFFFFF; */
+    background: url(./img/VisualContent2.png);
+
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.info-cv-submission {
+    /* Info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 495px;
+    height: 214px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text-info-cv-submission {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 495px;
+    height: 214px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-text-info-cv-submission {
+    /* Title */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 495px;
+    height: 214px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-title-text-info-cv-submission {
+    /* Title */
+
+
+    width: 391px;
+    height: 56px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    /* identical to box height, or 104% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descr-title-text-info-cv-submission {
+    /* Description */
+
+
+    width: 495px;
+    height: 44px;
+
+    /* Body M 16 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* button */
+
+.btn-title-text-info-cv-submission {
+    border: none;
+    /* Button Medium 50 px */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px 16px 16px;
+    gap: 8px;
+
+    width: 114px;
+    height: 50px;
+
+    background: #712FFF;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.btn-title-text-info-cv-submission img {
+    /* Upward Arrow */
+
+    width: 18px;
+    height: 18px;
+
+    background: url(.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.labelbtn-title-text-info-cv-submission {
+    /* label-text */
+
+
+    width: 48px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ------------------------------------------------ footer ------------------------------------------------ */
+
+.footer {
+    /* Footer */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 32px 80px;
+    gap: 32px;
+
+    width: 1440px;
+    height: 172px;
+
+    background: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame22-footer {
+    /* Frame 22 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: space-between;
+
+
+
+    align-items: flex-start;
+
+    padding: 0px;
+    /* gap: 105px; */
+
+    /* width: 1280px; */
+    width: 1440px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-links-at-footer {
+    /* Menu */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+
+
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 372px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* button1 at footer */
+.btn-home {
+    border: none;
+    background-color: white;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+    
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+    
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 64px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* on hover */
+.btn-home:hover {
+    background-color: #712FFF;
+}
+
+.btn-home label:hover {
+    color: white;
+}
+
+.labelbtn-home {
+    /* label-text */
+
+
+    width: 40px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* button2 at footer */
+.btn-about-us {
+    border: none;
+    background-color: white;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+    
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+    
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 85px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-about-us:hover {
+    background-color: #712FFF;
+}
+
+.btn-about-us label:hover {
+    color: white;
+}
+
+.labelbtn-about-us {
+    /* label-text */
+
+
+    width: 61px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* button3 at footer */
+.btn-how-it-works {
+    border: none;
+    background-color: white;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+    
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+    
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 111px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.btn-how-it-works:hover {
+    background-color: #712FFF;
+}
+
+.btn-how-it-works label:hover {
+    color: white;
+}
+
+.labelbtn-how-it-works {
+    /* label-text */
+
+
+    width: 87px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* 2 logos */
+
+.twitter-pic {
+    /* Twitter */
+
+
+    width: 24px;
+    height: 24px;
+
+    background: url(.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+
+.twitter-pic:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 #712FFF, 0 6px 20px 0 #712FFF;
+}
+
+
+.instagram-pic {
+    /* Instagram */
+
+    width: 24px;
+    height: 24px;
+
+    background: url(.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.instagram-pic:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 #712FFF, 0 6px 20px 0 #712FFF;
+}
+
+.menu-credits-at-footer {
+    /* Menu */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    /* width: 803px; */
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* credits-button at footer */
+.btn-menu-credits-at-footer {
+    border: none;
+    background-color: white;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    /* width: 803px; */
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.labelbtn-menu-credits-at-footer {
+    /* label-text */
+
+
+    /* width: 779px; */
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer-menumade {
+    /* Menu */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    /* width: 272px; */
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-footer-menumade {
+    border: none;
+    background-color: white;
+    /* Button Small 38 px
+
+    Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
+    
+    Text buttons are used for the lowest priority actions, especially when presenting multiple options
+    
+    Low emphasis – For optional or supplementary actions with even less visual prominence
+    */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    justify-content: center;
+
+
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    /* width: 272px; */
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.labelbtn-footer-menumade {
+    /* label-text */
+
+
+    /* width: 248px; */
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
